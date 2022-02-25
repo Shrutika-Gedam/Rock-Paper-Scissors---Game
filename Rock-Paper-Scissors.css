@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(57, 67, 76);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    color: black;
+    background-color: white;
+    padding: 2px;
+}
+
+.score-board{
+    font-size: 50px;
+    text-align: center;
+}
+.moves{
+    text-align: center;
+}
+
+#result{
+    font-size: 30px;
+    align-content: center;
+    padding-top: 30px;
+}
+
+#Rock{
+    position: absolute;
+    top: 380px;
+    left: 500px;
+    outline-style: solid;
+    outline-color: white;
+}
+#Rock:hover{
+    outline-color: rgb(255, 98, 201);
+}
+
+#Paper{
+    position: absolute;
+    top: 380px;
+    left: 700px;
+    outline-style: solid;
+    outline-color: white;
+}
+#Paper:hover{
+    outline-color: rgb(79, 153, 250);
+}
+
+#Scissors{
+    position: absolute;
+    top: 380px;
+    left: 900px;
+    outline-style: solid;
+    outline-color: white;
+}
+#Scissors:hover{
+    outline-color: rgb(252, 214, 67);
+}
+
+#mgs{
+    position: absolute;
+    top: 580px;
+    left: 680px;
+}
+
+#reload{
+    font-size: 30px;
+    color: rgb(0, 2, 3);
+    background-color: rgb(235, 124, 124);
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 400px;
+    left: 670px;
+}
+
+#reload:hover {
+    background-color: rgb(23, 160, 94);
+    color: white;
+  }
